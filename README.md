@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004106-blue)](https://doi.org/10.82901/nemar.on004106)
+
 ### Introduction
 
 **Overview:** The Advanced Guard Duty study was designed to measure sustained vigilance in realistic settings by having subjects verify information on replica ID badges. The task was performed in conjunction with two other tasks a calibration driving task and a baseline driving task. The data collected for the two driving tasks is not included in this dataset. Another study (Basic Guard Duty) not included in this collection had a similar set-up but a different experimental design and a different subject pool. In the Basic Guard Duty study the rate of ID presentation varied among tasks. In the Advanced Guard Duty study both the rate of ID presentation and the criteria for verification varied among blocks. Further information is available on request from [cancta.net](https://cancta.net).
