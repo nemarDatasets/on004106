@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCIT Advanced Guard Duty",
+  "description": "The Advanced Guard Duty dataset comprises EEG, eye-tracking, and behavioral data collected during a sustained vigilance task involving verification of replica identification cards. Participants performed a 50-minute guard duty task organized into ten 5-minute blocks with varying ID presentation rates (1-25 per minute) and verification criteria. The study was designed to measure cognitive workload and fatigue in realistic vigilance settings, with data collected from a 256-channel BioSemi EEG system synchronized with eye-tracking and driving simulator vehicle dynamics.",
+  "methods_description": "EEG was recorded using a BioSemi 256-channel system (plus 8 additional channels including 4 eye and 2 mastoid channels) at 1024 Hz sampling rate. Eye tracking was performed with a Sensomotoric Instruments REDEYE250 system. Participants completed a guard duty task involving serial presentation of replica ID cards paired with reference face images from the Multi-PIE database. The task consisted of ten 5-minute blocks with ID presentation rates varying stochastically between 1 and 25 per minute according to predefined profiles. Participants made forced-choice allow/deny decisions with a maximum response time of 20 seconds per trial.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,27 @@
     "Tony Johnson (curation)": {},
     "Kay Robbins (curation)": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004106.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "vigilance"
+    },
+    {
+      "term": "fatigue"
+    },
+    {
+      "term": "cognitive workload"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "sustained attention"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.biopsycho.2015.12.009",
       "identifier_type": "DOI",
@@ -43,6 +60,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004106",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004106.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -51,12 +73,12 @@
       "award_number": "W911NF-10-0-0002"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "72.6 GB (49 files)"
   ],
   "formats": [
     ".ipynb",
@@ -65,32 +87,8 @@
     ".set",
     ".tsv",
     ".txt",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "The Advanced Guard Duty dataset contains EEG, eye tracking, and behavioral data collected during a sustained vigilance task involving verification of replica identification cards. Subjects performed a 50-minute guard duty task divided into ten 5-minute blocks with varying ID presentation rates (1-25 per minute) and verification criteria. The dataset includes 256-channel EEG recordings, eye tracking data, driving simulator vehicle dynamics, and behavioral responses, designed to investigate cognitive and physiological correlates of sustained attention and fatigue in realistic operational settings.",
-  "methods_description": "EEG was recorded using BioSemi 256-channel systems (plus 8 additional channels including 4 eye and 2 mastoid channels) at 1024 Hz sampling rate. Eye tracking was performed using Sensomotoric Instruments REDEYE250. Subjects performed a guard duty task involving serial presentation of replica ID cards paired with reference face images from the Multi-PIE database. The task consisted of ten 5-minute blocks with ID presentation rates varying stochastically between 1 and 25 per minute according to predefined profiles. Participants made forced-choice allow/deny decisions with maximum response time of 20 seconds per trial.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "vigilance"
-    },
-    {
-      "term": "sustained attention"
-    },
-    {
-      "term": "fatigue"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "cognitive workload"
-    },
-    {
-      "term": "decision-making"
-    }
-  ],
-  "source_hash": "8e1384947a17463dce787f7c3d9a306ad34395f8af57052dda74f942edf8da0f"
+  "source_hash": "6523f6639f51bbb2836fa47997d532223adf48b642426adf259e24bde9adcd44"
 }
